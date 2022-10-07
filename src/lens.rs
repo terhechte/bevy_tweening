@@ -293,9 +293,9 @@ impl Lens<Transform> for TransformScaleLens {
 #[derive(Debug, Copy, Clone, PartialEq)]
 pub struct UiPositionLens {
     /// Start position.
-    pub start: UiRect<Val>,
+    pub start: UiRect,
     /// End position.
-    pub end: UiRect<Val>,
+    pub end: UiRect,
 }
 
 #[cfg(feature = "bevy_ui")]
